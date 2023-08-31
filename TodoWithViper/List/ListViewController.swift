@@ -93,7 +93,7 @@ final class ListViewController: UIViewController {
             addTodoButton.heightAnchor.constraint(equalToConstant: 40),
             
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            tableView.topAnchor.constraint(equalTo: customNavBarStackView.bottomAnchor, constant: 8),
+            tableView.topAnchor.constraint(equalTo: customNavBarStackView.bottomAnchor, constant: 6),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
         ])
